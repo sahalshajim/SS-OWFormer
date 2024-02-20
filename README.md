@@ -35,6 +35,20 @@ sh ./make.sh
 # unit test (should see all checking is True)
 python test.py
 ```
+### Dataset Preparation
+
+The original splits and semi-supervised splits are present inside `data/VOC2007/OWOD/ImageSets/` folder. The remaining dataset can be downloaded using this [link](https://drive.google.com/drive/folders/1S5L-YmIiFMAKTs6nHMorB0Osz5iWI31k?usp=sharing).
+
+The files should be organized in the following structure:
+```
+SS-OWFormer/
+└── data/
+    └── OWOD/
+        └── VOC2007/
+        	├── JPEGImages
+        	├── ImageSets
+        	└── Annotations
+```
 
 ## Experimental Results
 ### SS-OWOD Results on OWOD Splits
