@@ -179,5 +179,17 @@ SS-OWFormer/
 
 <p align="center" ><img width='800' src = "https://i.imgur.com/p0DMQUA.jpg"></p> 
 
+## Citation
+```bibtex
+@misc{mullappilly2024semisupervised,
+      title={Semi-supervised Open-World Object Detection}, 
+      author={Sahal Shaji Mullappilly and Abhishek Singh Gehlot and Rao Muhammad Anwer and Fahad Shahbaz Khan and Hisham Cholakkal},
+      year={2024},
+      eprint={2402.16013},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
 ## Acknowledgement 
 We are thankful to [ORE](https://github.com/JosephKJ/iOD), [MMRotate](https://github.com/open-mmlab/mmrotate), and [OW-DETR](https://github.com/akshitac8/OW-DETR) for releasing their models and code as open-source contributions.
